@@ -8,18 +8,21 @@ body{
 }
 span{
     color: white;
+   
 }
 .logo{
     
-    background-color: rgba(128, 128, 128, 0.842);
+    background-color: rgba(75, 73, 73, 0.781);
     padding: 10px;
 }
 .baner{
-   background-image: linear-gradient(#00000001,#00000063 ), url(./programacao.jpg);
+   background-image: linear-gradient(#000000,#00000088 ), url(./programacao.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
     color: white;
+    text-align: center;
+    top: 40%;
     
 }
