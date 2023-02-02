@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  
+  border: 100px solid white;
    min-width: 100px;
 }
 span{
@@ -12,9 +12,22 @@ span{
    
 }
 .logo{
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 20px;
+    display: flex;
     
-    background-color: rgba(75, 73, 73, 0.781);
-    padding: 10px;
+   
+}
+.icone{ 
+    max-width: 200px;
+    max-height: 60px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 18.5%;
+   
+
 }
 .baner{
    background-image: linear-gradient(#000000,#00000088 ), url(./programacao.jpg);
@@ -44,12 +57,27 @@ span{
     background-repeat: no-repeat;
     height: 90vh;
     
+    left: 30%;
+    top: 120%;
+    
 }
 .title{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 40px;
     position: absolute;
     top: 45%;
     left: 40%;
 }
+h1{
+    font-family: monospace;
+}
+.imgdoadm{
+    position: absolute;
+    left: 38%;
+    top: 65%;
+  height:50%;
+  border-radius: 300px;
+  border: solid 5px black;
+}
+
